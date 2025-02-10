@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+
+/* reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{ margin: 0; }
+
+img {
+    display:block;
+    max-width: 100%;
+}
+div {
+    min-height: 6rem;
+}
+body {
+    background-color: #fde4e5;
+    color: #4c0215;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+    color: #4c0215;
+    font-family: "Jacquard 24", serif;
+    font-size: 4vw;
+    margin-bottom: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(./images/hearts.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+.before, .after {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ol li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    transform:scale(1.3, 1.3);
+    margin-right: 8px;
+    margin-left: 5px;
+    accent-color: #4c0215;
+  }
+
+.header {
+    margin-bottom: 2.2rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    gap: 5px;
+}
+
+button {
+    background-color: pink;
+    color: #4c0215;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-color: #4c0215;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9999;
+}
