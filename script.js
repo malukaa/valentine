@@ -36,7 +36,7 @@ submitBtn.addEventListener("click", function(){
     const checkedBoxes = document.querySelectorAll('input[type="checkbox"]:checked').length;
     score.textContent = checkedBoxes;
     score.style.color = "red";
-    if (checkedBoxes < 3){
+    if (checkedBoxes < 100){
         message.textContent = "Heyyy, EVERYTHING on the list is true, reload the page and take it again >:(";
         gif.style.display = 'none';
     } else {
